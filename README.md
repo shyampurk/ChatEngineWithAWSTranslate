@@ -26,7 +26,7 @@ You can follow the sections below to build this example chat app in no time. But
 
 First you need to setup the ChatEngine enabled PubNub app in your account. 
 
-#### Step 1 : Login to your [PubNub Ap Console](https://admin.pubnub.com)
+#### Step 1 : Login to your [PubNub App Console](https://admin.pubnub.com)
 
 
 #### Step 2 : Activate ChatEngine in your PubNub account
