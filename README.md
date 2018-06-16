@@ -17,17 +17,17 @@ You can follow the sections below to build this example chat app in no time. But
   
 
 
-## [Set Up Basic ChatEngine](#setting-up-chatengine)
+## [Set Up Basic ChatEngine](#set-up-basic-chatengine)
 
 Follow these steps to setup your own chat app based on ChatEngine
 
 
-## [Set Up AWS Translate Service](#setting-up-aws-translate-service)
+## [Set Up AWS Translate Service](#set-up-aws-translate-service)
 
 Follow these steps to setup your own AWS Translate service
 
 
-## [Set Up PubNub Function for Translation](#setting-up-pubnub-function-for-aws-translate)
+## [Set Up PubNub Function for Translation](#set-up-pubnub-function-for-translation)
 
 Follow these steps to setup Translation feature
 
