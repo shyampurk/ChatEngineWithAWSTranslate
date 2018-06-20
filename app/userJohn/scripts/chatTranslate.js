@@ -1,4 +1,4 @@
-  // create a new instance of ChatEngine
+// create a new instance of ChatEngine
 ChatEngine = ChatEngineCore.create({
     publishKey: 'pub-c-c22e8bc3-449b-4692-abf8-87ce62a6f333',
     subscribeKey: 'sub-c-a6ff1f8c-712a-11e8-847f-0e36953de9e2'
@@ -109,13 +109,12 @@ const sendMessage = () => {
 
       	//Send message to user Peter
         homeChat.emit('message', {
-          //type:'REQUEST',
+          
           text: message,
           translate: {
             user: "peter",
             source_text: message
-            //source : "en",
-            //target: "es"
+            
             }
         });
 
