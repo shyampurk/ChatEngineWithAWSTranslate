@@ -2,22 +2,22 @@
 
 Follow this README to build your multilingual chat app with the help of PubNub ChatEngine. ChatEngine is a framework for building chat apps for any chat realted use case. It is feature rich, extensible and designed to work at scale, thanks to the globally available PubNub Data Stream Network. Check out the complete feature list of PubNub ChatEngine.
 
-This repository contains an example chat app built with ChatEngine, that has language translation capabilities. AWS Translate service powers the language translation feature and you will see how easy and quickly you can integrate AWS Translate API in this chat app. You can learn more about AWS Translate in the official AWS documentation.  
+This repository contains an example chat app built with ChatEngine, that has language translation capabilities. AWS Translate service powers the language translation feature and you will see how easily and quickly you can integrate AWS Translate API in this chat app.  
 
 The source code for this chat app is in Javascript. The UI frontend uses the standard javascript libraries like JQuery, so some level of familiarity with JQuery and standard Javascript language is expected. 
 
-For reference, here is the complete documentation of PubNub Chatengine. The AWS Translate documentation can be accessed in this link.  
+For reference, here is the complete documentation of [PubNub Chatengine](https://www.pubnub.com/products/chatengine/). The AWS Translate documentation can be accessed in [this link](https://aws.amazon.com/documentation/translate/).  
 
-Once built, the app can establish a chat session between two predefined users, John and Peter. It features an on-the-fly language selection dropdown through which the users can choose the language in which they want to receive the messages in. Take a look at this screenshot to get a feel for the chat app.
+Once built, the app can establish a chat session between two predefined users, John and Peter. It features an on-the-fly language selection dropdown through which the users can choose the language in which they want to receive the messages in. Take a look at this screenshot to get a feel of the language translation feature of the chat app.
 
 <img src="screenshots/overallscreen-app.gif" width="600">
   
 
 You can follow the sections below to build this example chat app in no time. But before you begin, you must have an account in PubNub and AWS. 
 
-1. Create your PubNub account
+1. Create your [PubNub developer account](https://admin.pubnub.com)
 
-2. Create your free AWS account 
+2. Create your [free AWS account](https://portal.aws.amazon.com/billing/signup#/start) 
 
   
 
@@ -35,15 +35,13 @@ Follow these steps in [ChatEngine QuickStart Tutorial](https://www.pubnub.com/do
 
 #### Step 3 : Wait for a few seconds. Once done, you will get a new PubNub app created within your account with a new set of publish and subscribe keys. 
 
-screenshot
+<img src="screenshots/step3-chatengine-activation.png" idth="300">
 
 #### Step 4 : Check the a new app is created in your PubNub admin dashboard.
 
-screenshot
+<img src="screenshots/step4-chatengine-app-creation.png" idth="600">
 
-Now your app infrastucture is created. You may choose to follow the remaining steps in quick start to build the barebones chat app. 
-
-For enabling multilingual chat feature, head over to the next section. 
+Now your app infrastucture is created. For enabling multilingual chat feature, head over to the next section. 
 
 
 
@@ -54,7 +52,14 @@ Follow these steps to setup your own AWS Translate service
 
 ## [Set Up PubNub Function for Translation](#set-up-pubnub-function-for-translation)
 
-Follow these steps to setup Translation feature
+Follow these steps to setup PubNun Function to serve as the backend for multilingual chat app.
+
+### Step 1 : Setup PubNub Function
+
+Head over to your PubNub dashboard and select the "ChatEngine App" app. Follow the official document of [PubNub Function](https://www.pubnub.com/products/functions/) to create a function for this app by clickign on the "Functions" menu on the sidebar.
+
+
+
 
 ## [App Deployment and Testing](#app-deployment-and-testing)
 
