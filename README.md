@@ -26,20 +26,20 @@ You can follow the sections below to build this example chat app in no time. But
 
 First you need to setup the ChatEngine enabled PubNub app in your account. 
 
-#### Step 1 : Login to your [PubNub App Console](https://admin.pubnub.com)
+### Step 1 : Login to your [PubNub App Console](https://admin.pubnub.com)
 
 
-#### Step 2 : Activate ChatEngine in your PubNub account
+### Step 2 : Activate ChatEngine in your PubNub account
 
 Follow these steps in [ChatEngine QuickStart Tutorial](https://www.pubnub.com/docs/tutorials/chatengine#step-one-pubnub-keys) to setup your chat app instance. Check the first step "Configure Your Account" in quickstart tutorial and click on the setup button.
 
-#### Step 3 : Wait for a few seconds. Once done, you will get a new PubNub app created within your account with a new set of publish and subscribe keys. 
+### Step 3 : Wait for a few seconds. Once done, you will get a new PubNub app created within your account with a new set of publish and subscribe keys. 
 
-<img src="screenshots/step3-chatengine-activation.png" idth="300">
+<img src="screenshots/step3-chatengine-activation.png" width="400">
 
-#### Step 4 : Check the a new app is created in your PubNub admin dashboard.
+### Step 4 : Check that a new app is created in your PubNub admin dashboard.
 
-<img src="screenshots/step4-chatengine-app-creation.png" idth="600">
+<img src="screenshots/step4-chatengine-app-creation.png" width="800">
 
 Now your app infrastucture is created. For enabling multilingual chat feature, head over to the next section. 
 
@@ -51,10 +51,13 @@ Follow these steps to setup your own AWS Translate service
 
 ### Step 1 : Setup an IAM user to access AWS Translate service
 
+Follow [these steps](https://docs.aws.amazon.com/translate/latest/dg/setting-up.html) to create an IAM user for AWS Translate. Make sure that the IAM user has full permissions for accessing AWS Translate service.
 
 ### Step 2 : Download the IAM user credentials
 
+Download the credentials file for the IAM user and save it. This file contains the AWS ACCESS KEY and AWS SECRET KEY.
 
+<img src="screenshots/step1-awsIAM.png" width="800">
 
 ## [Set Up PubNub Function for Translation](#set-up-pubnub-function-for-translation)
 
@@ -67,6 +70,13 @@ Head over to your PubNub dashboard and select the "ChatEngine App" app. Follow t
 <img src="screenshots/step1-pubnubfunction.png" width="800">
 
 ### Step 2 : Deploy the function
+
+Use the following parameters for creating the module and function
+
+<img src="screenshots/step2-create-module.png" width="350"><img src="screenshots/step2-create-function.png" width="350">
+
+### Step 3 : Launch the function
+
 
 
 ## [App Deployment and Testing](#app-deployment-and-testing)
