@@ -35,11 +35,11 @@ Follow these steps in [ChatEngine QuickStart Tutorial](https://www.pubnub.com/do
 
 ### Step 3 : Wait for a few seconds. Once done, you will get a new PubNub app created within your account with a new set of publish and subscribe keys. 
 
-<img src="screenshots/step3-chatengine-activation.png" idth="300">
+<img src="screenshots/step3-chatengine-activation.png" width="400">
 
-### Step 4 : Check the a new app is created in your PubNub admin dashboard.
+### Step 4 : Check that a new app is created in your PubNub admin dashboard.
 
-<img src="screenshots/step4-chatengine-app-creation.png" idth="600">
+<img src="screenshots/step4-chatengine-app-creation.png" width="800">
 
 Now your app infrastucture is created. For enabling multilingual chat feature, head over to the next section. 
 
@@ -57,7 +57,7 @@ Follow [these steps](https://docs.aws.amazon.com/translate/latest/dg/setting-up.
 
 Download the credentials file for the IAM user and save it. This file contains the AWS ACCESS KEY and AWS SECRET KEY.
 
-<img src="screenshots/step1-awsIAM.png" width="600">
+<img src="screenshots/step1-awsIAM.png" width="800">
 
 ## [Set Up PubNub Function for Translation](#set-up-pubnub-function-for-translation)
 
