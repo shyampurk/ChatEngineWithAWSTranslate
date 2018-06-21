@@ -58,7 +58,7 @@ Follow these steps to setup PubNun Function to serve as the backend for multilin
 
 Head over to your PubNub dashboard and select the "ChatEngine App" app. Follow the official document of [PubNub Function](https://www.pubnub.com/products/functions/) to create a function for this app by clickign on the "Functions" menu on the sidebar.
 
-
+<img src="screenshots/step1-pubnubfunction.png" width="800">
 
 
 ## [App Deployment and Testing](#app-deployment-and-testing)
