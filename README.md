@@ -71,6 +71,13 @@ Head over to your PubNub dashboard and select the "ChatEngine App" app. Follow t
 
 ### Step 2 : Deploy the function
 
+Use the following parameters for creating the module and function
+
+<img src="screenshots/step2-create-module.png" width="350"><img src="screenshots/step2-create-function.png" width="350">
+
+### Step 3 : Launch the function
+
+
 
 ## [App Deployment and Testing](#app-deployment-and-testing)
 
