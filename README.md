@@ -49,6 +49,12 @@ Now your app infrastucture is created. For enabling multilingual chat feature, h
 
 Follow these steps to setup your own AWS Translate service
 
+### Step 1 : Setup an IAM user to access AWS Translate service
+
+
+### Step 2 : Download the IAM user credentials
+
+
 
 ## [Set Up PubNub Function for Translation](#set-up-pubnub-function-for-translation)
 
@@ -60,7 +66,19 @@ Head over to your PubNub dashboard and select the "ChatEngine App" app. Follow t
 
 <img src="screenshots/step1-pubnubfunction.png" width="800">
 
+### Step 2 : Deploy the function
+
 
 ## [App Deployment and Testing](#app-deployment-and-testing)
 
-Follow these steps to setup Translation feature
+Follow these steps to setup Translation feature.
+
+### Step 1 : Clone this repository
+
+### Step 2 : Update PubNub keys
+
+### Step 3 : Launch the app instances
+
+Now you can launch both the chat app instances for John and Peter and start chatting. Remember, the translation feature is only enabled for Peter while John can chat only in English. This is becuase AWS Translate currently supports translation to and from English only.
+
+<img src="screenshots/overallscreencast.gif" width="800">
