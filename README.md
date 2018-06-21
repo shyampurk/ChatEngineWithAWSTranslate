@@ -77,7 +77,13 @@ Use the following parameters for creating the module and function
 
 ### Step 3 : Launch the function
 
+Copy the [AWS Translate backend.js] code(function/AWS Transalte backend.js) and paste it in the code window. 
 
+Add your AWS ACCESS KEY and AWS SECREY KEY (Step 2 of "Set Up AWS Translate Service") in the My Secrets vault. 
+
+<img src="screenshots/step3-addSecrets.png" width="800">
+
+Now you can launch the function. 
 
 ## [App Deployment and Testing](#app-deployment-and-testing)
 
