@@ -10,7 +10,7 @@ For reference, here is the complete documentation of PubNub Chatengine. The AWS 
 
 Once built, the app can establish a chat session between two predefined users, John and Peter. It features an on-the-fly language selection dropdown through which the users can choose the language in which they want to receive the messages in. Take a look at this screenshot to get a feel for the chat app.
 
-<screenshot>
+<img src="screenshots/overallscreen-app.gif" width="600">
   
 
 You can follow the sections below to build this example chat app in no time. But before you begin, you must have an account in PubNub and AWS. 
