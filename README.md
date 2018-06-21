@@ -8,7 +8,7 @@ The source code for this chat app is in Javascript. The UI frontend uses the sta
 
 For reference, here is the complete documentation of PubNub Chatengine. The AWS Translate documentation can be accessed in this link.  
 
-Once built, the app can establish a chat session between two users. It will have an the fly language selection dropdown through which the users can choose the language in which they want to receive the messages in. Take a look at this screenshot to get a feel for the chat app.
+Once built, the app can establish a chat session between two predefined users, John and Peter. It features an on-the-fly language selection dropdown through which the users can choose the language in which they want to receive the messages in. Take a look at this screenshot to get a feel for the chat app.
 
 <screenshot>
   
