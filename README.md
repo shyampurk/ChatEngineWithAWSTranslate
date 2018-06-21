@@ -91,7 +91,13 @@ Follow these steps to setup Translation feature.
 
 ### Step 1 : Clone this repository
 
+Clone this repository under a local folder
+
 ### Step 2 : Update PubNub keys
+
+Update the PubNub publish key for both the chat app instances for [John](hyampurk/ChatEngineWithAWSTranslate/blob/master/app/userJohn/scripts/chatTranslate.js#L3) and [Peter](https://github.com/shyampurk/ChatEngineWithAWSTranslate/blob/master/app/userPeter/scripts/chatTranslate.js#L3).
+
+Repeat the same steps for updating the PubNub subscribe key for [John](hyampurk/ChatEngineWithAWSTranslate/blob/master/app/userJohn/scripts/chatTranslate.js#L4) and [Peter](https://github.com/shyampurk/ChatEngineWithAWSTranslate/blob/master/app/userPeter/scripts/chatTranslate.js#L4). . 
 
 ### Step 3 : Launch the app instances
 
