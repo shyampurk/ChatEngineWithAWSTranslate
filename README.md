@@ -61,11 +61,11 @@ Download the credentials file for the IAM user and save it. This file contains t
 
 ## [Set Up PubNub Function for Translation](#set-up-pubnub-function-for-translation)
 
-Follow these steps to setup PubNun Function to serve as the backend for multilingual chat app.
+Follow these steps to setup PubNub Function to serve as the backend for multilingual chat app.
 
 ### Step 1 : Setup PubNub Function
 
-Head over to your PubNub dashboard and select the "ChatEngine App" app. Follow the official document of [PubNub Function](https://www.pubnub.com/products/functions/) to create a function for this app by clickign on the "Functions" menu on the sidebar.
+Head over to your PubNub dashboard and select the "ChatEngine App" app. Follow the official document of [PubNub Function](https://www.pubnub.com/products/functions/) to create a function for this app by clicking on the "Functions" menu on the sidebar.
 
 <img src="screenshots/step1-pubnubfunction.png" width="800">
 
@@ -79,7 +79,7 @@ Use the following parameters for creating the module and function
 
 Copy the [AWS Translate backend code](https://github.com/shyampurk/ChatEngineWithAWSTranslate/blob/master/function/AWS%20Transalte%20backend.js) and paste it in the code window. 
 
-Add your AWS ACCESS KEY and AWS SECREY KEY (Step 2 of "Set Up AWS Translate Service") in the My Secrets vault. 
+Add your AWS ACCESS KEY and AWS SECREY KEY (Step 2 of "Set Up AWS Translate Service") in the My Secrets vault as shown below. 
 
 <img src="screenshots/step3-addSecrets.png" width="800">
 
@@ -87,7 +87,7 @@ Now you can launch the function.
 
 ## [App Deployment and Testing](#app-deployment-and-testing)
 
-Follow these steps to setup Translation feature.
+Follow these steps to test the app.
 
 ### Step 1 : Clone this repository
 
@@ -104,3 +104,5 @@ Repeat the same steps for updating the PubNub subscribe key for [John](hyampurk/
 Now you can launch both the chat app instances for John and Peter and start chatting. Remember, the translation feature is only enabled for Peter while John can chat only in English. This is becuase AWS Translate currently supports translation to and from English only.
 
 <img src="screenshots/overallscreencast.gif" width="800">
+
+Have fun!
