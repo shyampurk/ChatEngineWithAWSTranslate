@@ -6,7 +6,7 @@ This repository contains an example chat app built with ChatEngine, which has la
 
 The source code for this chat app is in Javascript. The UI frontend uses the standard javascript libraries like JQuery, so some level of familiarity with JQuery and standard Javascript language is expected. 
 
-For reference, here is the complete documentation of [PubNub Chatengine](https://www.pubnub.com/products/chatengine/). The AWS Translate documentation can be accessed in [this link](https://aws.amazon.com/documentation/translate/).  
+For reference, here is the complete documentation of [PubNub ChatEngine](https://www.pubnub.com/products/chatengine/). The AWS Translate documentation can be accessed in [this link](https://aws.amazon.com/documentation/translate/).  
 
 Once built, the app can establish a chat session between two predefined users, John and Peter. It features an on-the-fly language selection drop-down through which the users can choose the language in which they want to receive the messages in. Take a look at this screenshot to get a feel for the language translation feature of this chat app.
 
@@ -95,9 +95,9 @@ Clone this repository under a local folder
 
 ### Step 2 : Update PubNub keys
 
-Update the PubNub publish key for both the chat app instances for [John](hyampurk/ChatEngineWithAWSTranslate/blob/master/app/userJohn/scripts/chatTranslate.js#L3) and [Peter](https://github.com/shyampurk/ChatEngineWithAWSTranslate/blob/master/app/userPeter/scripts/chatTranslate.js#L3).
+Update the PubNub publish key for both the chat app instances for [John](https://github.com/shyampurk/ChatEngineWithAWSTranslate/blob/master/app/userJohn/scripts/chatTranslate.js#L3) and [Peter](https://github.com/shyampurk/ChatEngineWithAWSTranslate/blob/master/app/userPeter/scripts/chatTranslate.js#L3).
 
-Repeat the same steps for updating the PubNub subscribe key for [John](hyampurk/ChatEngineWithAWSTranslate/blob/master/app/userJohn/scripts/chatTranslate.js#L4) and [Peter](https://github.com/shyampurk/ChatEngineWithAWSTranslate/blob/master/app/userPeter/scripts/chatTranslate.js#L4).
+Repeat the same steps for updating the PubNub subscribe key for [John](https://github.com/shyampurk/ChatEngineWithAWSTranslate/blob/master/app/userJohn/scripts/chatTranslate.js#L4) and [Peter](https://github.com/shyampurk/ChatEngineWithAWSTranslate/blob/master/app/userPeter/scripts/chatTranslate.js#L4).
 
 ### Step 3 : Launch the app instances
 
