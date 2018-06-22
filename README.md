@@ -13,7 +13,7 @@ Once built, the app can establish a chat session between two predefined users, J
 <img src="screenshots/overallscreen-app.gif" width="600">
   
 
-You can follow the sections below to build this example chat app in no time. But before you begin, you must have an account in PubNub and AWS. 
+You can follow the sections below to build this example chat app in no time. However, before you begin, you must have an account in PubNub and AWS. 
 
 1. Create your [PubNub developer account](https://admin.pubnub.com)
 
@@ -24,14 +24,14 @@ You can follow the sections below to build this example chat app in no time. But
 
 ## [Set Up Basic ChatEngine](#set-up-basic-chatengine)
 
-First you need to setup the ChatEngine enabled PubNub app in your account. 
+First, you need to set up the ChatEngine enabled PubNub app in your account. 
 
 ### Step 1 : Login to your [PubNub App Console](https://admin.pubnub.com)
 
 
 ### Step 2 : Activate ChatEngine in your PubNub account
 
-Follow these steps in [ChatEngine QuickStart Tutorial](https://www.pubnub.com/docs/tutorials/chatengine#step-one-pubnub-keys) to setup your chat app instance. Check the first step "Configure Your Account" in quickstart tutorial and click on the setup button.
+Follow these steps in [ChatEngine QuickStart Tutorial](https://www.pubnub.com/docs/tutorials/chatengine#step-one-pubnub-keys) to set up your chat app instance. Check the first step "Configure Your Account" in quickstart tutorial and click on the setup button.
 
 ### Step 3 : Wait for a few seconds. Once done, you will get a new PubNub app created within your account with a new set of publish and subscribe keys. 
 
