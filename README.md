@@ -47,7 +47,7 @@ Now your app infrastucture is created. For enabling multilingual chat feature, h
 
 ## [Set Up AWS Translate Service](#set-up-aws-translate-service)
 
-Follow these steps to setup your own AWS Translate service
+Follow these steps to setup your AWS Translate service
 
 ### Step 1 : Setup an IAM user to access AWS Translate service
 
@@ -61,7 +61,7 @@ Download the credentials file for the IAM user and save it. This file contains t
 
 ## [Set Up PubNub Function for Translation](#set-up-pubnub-function-for-translation)
 
-Follow these steps to setup PubNub Function to serve as the backend for multilingual chat app.
+Follow these steps to setup PubNub Function to serve as the backend for the multilingual chat app.
 
 ### Step 1 : Setup PubNub Function
 
@@ -79,7 +79,7 @@ Use the following parameters for creating the module and function
 
 Copy the [AWS Translate backend code](https://github.com/shyampurk/ChatEngineWithAWSTranslate/blob/master/function/AWS%20Transalte%20backend.js) and paste it in the code window. 
 
-Add your AWS ACCESS KEY and AWS SECREY KEY (Step 2 of "Set Up AWS Translate Service") in the My Secrets vault as shown below. 
+Add your AWS ACCESS KEY and AWS SECRET KEY (Step 2 of "Set Up AWS Translate Service") in the My Secrets vault as shown below. 
 
 <img src="screenshots/step3-addSecrets.png" width="800">
 
@@ -97,11 +97,11 @@ Clone this repository under a local folder
 
 Update the PubNub publish key for both the chat app instances for [John](hyampurk/ChatEngineWithAWSTranslate/blob/master/app/userJohn/scripts/chatTranslate.js#L3) and [Peter](https://github.com/shyampurk/ChatEngineWithAWSTranslate/blob/master/app/userPeter/scripts/chatTranslate.js#L3).
 
-Repeat the same steps for updating the PubNub subscribe key for [John](hyampurk/ChatEngineWithAWSTranslate/blob/master/app/userJohn/scripts/chatTranslate.js#L4) and [Peter](https://github.com/shyampurk/ChatEngineWithAWSTranslate/blob/master/app/userPeter/scripts/chatTranslate.js#L4). . 
+Repeat the same steps for updating the PubNub subscribe key for [John](hyampurk/ChatEngineWithAWSTranslate/blob/master/app/userJohn/scripts/chatTranslate.js#L4) and [Peter](https://github.com/shyampurk/ChatEngineWithAWSTranslate/blob/master/app/userPeter/scripts/chatTranslate.js#L4).
 
 ### Step 3 : Launch the app instances
 
-Now you can launch both the chat app instances for John and Peter and start chatting. Remember, the translation feature is only enabled for Peter while John can chat only in English. This is becuase AWS Translate currently supports translation to and from English only.
+Now you can launch both the chat app instances for John and Peter and start chatting. Remember, the translation feature is only enabled for Peter while John can chat only in English. This is because AWS Translate currently supports translation to and from English only.
 
 <img src="screenshots/overallscreencast.gif" width="800">
 
