@@ -1,14 +1,14 @@
 # Multilingual Chat App with PubNub ChatEngine and AWS Translate
 
-Follow this README to build your multilingual chat app with the help of PubNub ChatEngine. ChatEngine is a framework for building chat apps for any chat realted use case. It is feature rich, extensible and designed to work at scale, thanks to the globally available PubNub Data Stream Network. Check out the complete feature list of PubNub ChatEngine.
+Follow this README to build your multilingual chat app with the help of PubNub ChatEngine. ChatEngine is a framework for building chat apps for any chat-related use case. It is feature rich, extensible and designed to work at scale, thanks to the globally available PubNub Data Stream Network. Check out the complete feature list of PubNub ChatEngine.
 
-This repository contains an example chat app built with ChatEngine, that has language translation capabilities. AWS Translate service powers the language translation feature and you will see how easily and quickly you can integrate AWS Translate API in this chat app.  
+This repository contains an example chat app built with ChatEngine, which has language translation capabilities. AWS Translate service powers the language translation feature. You can easily integrate AWS Translate API in this chat app.  
 
 The source code for this chat app is in Javascript. The UI frontend uses the standard javascript libraries like JQuery, so some level of familiarity with JQuery and standard Javascript language is expected. 
 
 For reference, here is the complete documentation of [PubNub Chatengine](https://www.pubnub.com/products/chatengine/). The AWS Translate documentation can be accessed in [this link](https://aws.amazon.com/documentation/translate/).  
 
-Once built, the app can establish a chat session between two predefined users, John and Peter. It features an on-the-fly language selection dropdown through which the users can choose the language in which they want to receive the messages in. Take a look at this screenshot to get a feel of the language translation feature of the chat app.
+Once built, the app can establish a chat session between two predefined users, John and Peter. It features an on-the-fly language selection drop-down through which the users can choose the language in which they want to receive the messages in. Take a look at this screenshot to get a feel for the language translation feature of this chat app.
 
 <img src="screenshots/overallscreen-app.gif" width="600">
   
